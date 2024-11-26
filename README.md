@@ -8,4 +8,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * Lucas Gabriel(@luke-rocha3)
 * Carla Maria(@CarlaMSilva)
 * Wadje Rogaciano (@KameGaKiru)
-- Rafael Leal Guimarães (@RafaLG18)
+* Rafael Leal Guimarães (@RafaLG18)
