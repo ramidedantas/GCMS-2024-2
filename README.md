@@ -7,3 +7,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * Rasd (@rasd)
 * Lucas Gabriel(@luke-rocha3)
 * Carla Maria(@CarlaMSilva)
+* Wadje Rogaciano (@KameGaKiru)
