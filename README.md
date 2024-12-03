@@ -10,4 +10,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * Wadje Rogaciano (@KameGaKiru)
 * Rafael Leal Guimarães (@RafaLG18)
 * José Pereira da Silva Neto (@Neto-Pereira25)
-* Mateus bezerra Jerônimo (@maeusbezerraj)
+* Mateus bezerra Jerônimo (@mateusbezerraj)
