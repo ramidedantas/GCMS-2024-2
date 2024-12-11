@@ -1,6 +1,6 @@
 package br.edu.ifpe.recife.gcms.WebApp; 
  
-import org.springframework.stereotype.Controller; 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping; 
 import org.springframework.web.bind.annotation.ResponseBody; 
  
@@ -14,6 +14,11 @@ public class HomeController {
   
   @RequestMapping("/ramide") 
   public @ResponseBody String greetingRamide() { 
-    return "Hello, Ramide!?"; 
+    return "Hello, Ramide!"; 
+  }
+  
+  @RequestMapping("/Rafael") 
+  public @ResponseBody String greetingRafael() { 
+    return "Hello, Rafael!"; 
   } 
 }  
