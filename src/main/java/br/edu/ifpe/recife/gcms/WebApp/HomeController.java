@@ -24,6 +24,6 @@ public class HomeController {
   
   @RequestMapping("/jose") 
   public @ResponseBody String greetingJose() { 
-    return "Hello, José!"; 
+    return "Hello, José!!"; 
   } 
 }  
