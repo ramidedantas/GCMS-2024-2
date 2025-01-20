@@ -11,3 +11,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * Rafael Leal Guimarães (@RafaLG18)
 * José Pereira da Silva Neto (@Neto-Pereira25)
 * Mateus Bezerra Jerônimo (@mateusbezerraj)
+* Carolina Ferreira e Silva Macedo (@carolinafmacedo)
