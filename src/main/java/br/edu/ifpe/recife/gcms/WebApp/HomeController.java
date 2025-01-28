@@ -40,6 +40,7 @@ public class HomeController {
   @RequestMapping("/hotfix") 
   public @ResponseBody String greetingRafaelBranch() { 
     return "Hello, Wadje! (hotfix)"; 
+    
   }
  
 }  
