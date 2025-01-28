@@ -41,4 +41,9 @@ public class HomeController {
   public @ResponseBody String greetingHotfix() { 
     return "Pratica 4 - José!!!"; 
   }
+
+  @RequestMapping("/jose_branch") 
+  public @ResponseBody String greetingJoseBranch() { 
+    return "Hello, José! (branch)"; 
+  }
 }  
