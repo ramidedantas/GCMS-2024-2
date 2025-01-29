@@ -39,16 +39,20 @@ public class HomeController {
 <<<<<<< HEAD
   
   @RequestMapping("/Wadje") 
-  public @ResponseBody String greetingRafael() { 
+  public @ResponseBody String greetingWadje() { 
     return "Hello, Wadje!"; 
   }
-  
+  	
   @RequestMapping("/hotfix") 
-  public @ResponseBody String greetingRafaelBranch() { 
+  public @ResponseBody String greetingHotifix() { 
     return "Hello, Wadje! (hotfix)"; 
-    
   }
- 
+  
+  @RequestMapping("/Wadje_branch") 
+  public @ResponseBody String greetingWadjeBranchatualizada() { 
+    return "Hello, Wadje! (branch)"; 
+  }
+  	
 =======
 
   @RequestMapping("/hotfix") 
