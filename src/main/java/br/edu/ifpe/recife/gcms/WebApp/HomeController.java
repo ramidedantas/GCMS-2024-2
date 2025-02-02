@@ -27,23 +27,17 @@ public class HomeController {
     return "Hello, Rafael!"; 
   } 
   
-  @RequestMapping("/jose") 
-  public @ResponseBody String greetingJose() { 
-    return "Hello, José!!"; 
-  } 
-
   @RequestMapping("/rafael_branch") 
   public @ResponseBody String greetingRafaelBranch() { 
     return "Hello, Rafael! (branch)"; 
   }
-<<<<<<< HEAD
   
   @RequestMapping("/Wadje") 
   public @ResponseBody String greetingWadje() { 
     return "Hello, Wadje!"; 
   }
   	
-  @RequestMapping("/hotfix") 
+  @RequestMapping("/wadje_hotfix") 
   public @ResponseBody String greetingHotifix() { 
     return "Hello, Wadje! (hotfix)"; 
   }
@@ -52,10 +46,18 @@ public class HomeController {
   public @ResponseBody String greetingWadjeBranchatualizada() { 
     return "Hello, Wadje! (branch)"; 
   }
-  	
-=======
+  
+  @RequestMapping("/wadje") 
+  public @ResponseBody String greetingwadje() { 
+    return "Hello, Wadje!"; 
+  }
 
-  @RequestMapping("/hotfix") 
+  @RequestMapping("/jose") 
+  public @ResponseBody String greetingJose() { 
+    return "Hello, José!!"; 
+  } 
+  
+  @RequestMapping("/jose_hotfix") 
   public @ResponseBody String greetingHotfix() { 
     return "Pratica 4 - José!!!"; 
   }
@@ -65,8 +67,8 @@ public class HomeController {
     return "Hello, José! (branch)"; 
   }
 
-  @RequestMapping("/wadje") 
-  public @ResponseBody String greetingwadje() { 
-    return "Hello, Wadje!"; 
+  @RequestMapping("/jose_fork") 
+  public @ResponseBody String greetingJoseFork() { 
+    return "José Fork!"; 
   }
 }  
