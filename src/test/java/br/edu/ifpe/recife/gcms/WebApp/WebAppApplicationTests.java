@@ -54,7 +54,7 @@ class WebAppApplicationTests {
   
   @Test 
   public void shouldReturnHotfix() throws Exception { 
-    this.mockMvc.perform(get("/hotfix")) 
+    this.mockMvc.perform(get("/jose_hotfix")) 
         .andDo(print()).andExpect(status().isOk()) 
         .andExpect(content() 
           .string(containsString("Pratica 4 - José!!!"))); 
@@ -66,6 +66,14 @@ class WebAppApplicationTests {
         .andDo(print()).andExpect(status().isOk()) 
         .andExpect(content() 
           .string(containsString("Hello, José! (branch)"))); 
+  } 
+  
+  @Test 
+  public void shouldReturnJoseFork() throws Exception { 
+    this.mockMvc.perform(get("/jose_fork")) 
+        .andDo(print()).andExpect(status().isOk()) 
+        .andExpect(content() 
+          .string(containsString("José Fork!"))); 
   } 
  
 }  
