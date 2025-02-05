@@ -49,7 +49,7 @@ public class HomeController {
   
   @RequestMapping("/Wadje_fork") 
   public @ResponseBody String greetingWadjeFork() { 
-    return "Hello, Wadje!"; 
+    return "Hello, Wadje! (Fork)"; 
   }
 
   @RequestMapping("/jose") 
