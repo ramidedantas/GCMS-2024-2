@@ -47,9 +47,9 @@ public class HomeController {
     return "Hello, Wadje! (branch)"; 
   }
   
-  @RequestMapping("/wadje") 
-  public @ResponseBody String greetingwadje() { 
-    return "Hello, Wadje!"; 
+  @RequestMapping("/Wadje_fork") 
+  public @ResponseBody String greetingWadjeFork() { 
+    return "Hello, Wadje! (Fork)"; 
   }
 
   @RequestMapping("/jose") 
