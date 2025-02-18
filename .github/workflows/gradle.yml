@@ -17,6 +17,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    container: 
+       image: docker://ramideifpe/gcms-2024-2:webapp-aula
     permissions:
       contents: read
 
