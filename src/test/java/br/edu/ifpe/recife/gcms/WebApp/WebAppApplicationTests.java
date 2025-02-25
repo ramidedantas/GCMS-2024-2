@@ -92,4 +92,11 @@ class WebAppApplicationTests {
           .string(containsString("Pratica 4 - Carolina!!"))); 
   } 
  
+  @Test 
+  public void shouldReturnCarolinaBranch() throws Exception { 
+    this.mockMvc.perform(get("/carolina_branch")) 
+        .andDo(print()).andExpect(status().isOk()) 
+        .andExpect(content() 
+          .string(containsString("Hello, Fork!!"))); 
+  }
 }  
