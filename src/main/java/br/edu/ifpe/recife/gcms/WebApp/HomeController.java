@@ -73,8 +73,8 @@ public class HomeController {
   }
   
   @RequestMapping("/carolina")
-  public @ResponseBody String greetingFulano() {
-	return "Hello, Carolina!?!?";
+  public @ResponseBody String greetingCarolina() {
+	return "Hello, Carolina!!";
   }
   
 }  
