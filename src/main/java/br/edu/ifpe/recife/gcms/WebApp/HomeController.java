@@ -78,7 +78,9 @@ public class HomeController {
   }
   
   @RequestMapping("/carolina_hotfix") 
-  public @ResponseBody String greetingCarolinaHotfix() { 
+
+  public @ResponseBody String greetingCarolinaHotfix() {
+
     return "Pratica 4 - Carolina!!"; 
   }
   
