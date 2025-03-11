@@ -88,6 +88,13 @@ public class HomeController {
 
   public @ResponseBody String greetingCarolinaBranch() {
 
+    return "Hello, Branch!!"; 
+  }
+  
+  @RequestMapping("/carolina_fork") 
+
+  public @ResponseBody String greetingCarolinaFork() {
+
     return "Hello, Fork!!"; 
   }
   
