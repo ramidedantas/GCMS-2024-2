@@ -84,7 +84,7 @@ public class HomeController {
     return "Pratica 4 - Carolina!!"; 
   }
   
-<<<<<<< HEAD
+
   @RequestMapping("/carolina_branch") 
 
   public @ResponseBody String greetingCarolinaBranch() {
@@ -99,10 +99,7 @@ public class HomeController {
     return "Hello, Fork!!"; 
   }
   
-  @RequestMapping("/Carla")
-=======
   @RequestMapping("/carla")
->>>>>>> 698a11e (Hello World Carla)
   public @ResponseBody String greetingCarla() 
   { return "Hello, Carla Maria!";
   
