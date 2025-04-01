@@ -103,6 +103,11 @@ public class HomeController {
 	  return "Hello, Carla!";
   }
   
+  @RequestMapping("/carla_fork")
+  public @ResponseBody String greetingCarlaFork() {
+	  return "Hello, Carla!";
+  }
+  
   @RequestMapping("/carla_hotfix")
   public @ResponseBody String greetingCarlaHotfix() {
 	  return "Carla, hotfix, pratica 04!";
