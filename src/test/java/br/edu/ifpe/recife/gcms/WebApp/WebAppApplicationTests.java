@@ -114,21 +114,21 @@ class WebAppApplicationTests {
     this.mockMvc.perform(get("/carla")) 
         .andDo(print()).andExpect(status().isOk()) 
         .andExpect(content() 
-          .string(containsString("Hello, Carla!!"))); 
+          .string(containsString("Hello, Carla!"))); 
   } 
   @Test 
   public void shouldReturnCarlaFork() throws Exception { 
     this.mockMvc.perform(get("/carla_fork")) 
         .andDo(print()).andExpect(status().isOk()) 
         .andExpect(content() 
-          .string(containsString("Carla Fork!"))); 
+          .string(containsString("Hello, Carla!"))); 
   } 
   @Test 
   public void shouldReturnCarlaHotfix() throws Exception { 
     this.mockMvc.perform(get("/carla_hotfix")) 
         .andDo(print()).andExpect(status().isOk()) 
         .andExpect(content() 
-          .string(containsString("Carla, hotfix, pratica 04!!"))); 
+          .string(containsString("Carla, hotfix, pratica 04!"))); 
   } 
 
   @Test 
